@@ -3,16 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+ Hi there! My name is Liz. I code stuff, mostly in C#, Java or Javascript. As a person I am quite tenacious, which is something that goes well with my love for problem-solving. I adore the creative process of building things. Not only software and applications- In my free time I like to play the guitar and keyboard, and experiment with music making. I am always working on some project trying to learn new things.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+### Contact me
+<liz.dahlstrom@gmail.com>
