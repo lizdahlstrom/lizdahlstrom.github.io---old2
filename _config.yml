@@ -21,9 +21,9 @@
 title: Liz Dahlström
 email: liz.dahlstrom@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A programming blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  This is my personal blog about web and software development.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://lizdahlstrom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lizdahlstrom
 github_username:  lizdahlstrom
 
