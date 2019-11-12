@@ -1,0 +1,11 @@
+/* TEAM */
+Role: Developer
+Name: Liz Dahlström
+Site: https://lizdahlstrom.github.io
+Location: Gothenburg, Sweden
+
+/ * SITE */
+Language: English
+Standards: HTML5, CSS3
+Components: Jekyll, Sass
+Software: VSCode, Docker
