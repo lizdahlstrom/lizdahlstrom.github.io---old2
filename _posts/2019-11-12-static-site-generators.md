@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Static Site Generators"
-date:   2019-11-11 19:10:06 -0600
+date:   2019-11-12 19:11:50
 comments: true
-categories: welcome
+categories: web ssg
 ---

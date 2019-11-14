@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Thoughts on CSS preprocessors"
-date:   2019-11-11 16:08:27 -0600
+date:   2019-11-12 16:08:27
 comments: true
-categories: css, frontend
+categories: web frontend css
 ---
 
 CSS preprocessors (CPP's) have been a part of web development for years. They have a bunch of features developed to make writing stylesheets easier.
@@ -16,7 +16,7 @@ So, what is so great about taking the extra steps of implementing a CPP? In the 
 Writing CSS can get messy, fast. The number one reason why my head instantly felt lighter when I did start using SASS for the first time, was the ability to use variables. The ability to, for example, change color or font by changing the value of one single variable should have been a given thing. That being said, nowadays CSS does have support for variables, which is great.
 
 ### 2. Nesting
-Another reason why CSS tends to look messy to the eye is that the hierarchy of selectors is not apparent. Yes, they are called Cascading Style Sheets for a reason! That is, that "cascading" is partly referring to the actual hierarchy system of CSS. However, nested code is easier to understand and thus cleaner. Or at least, that is what I think. Nesting is available with Sass, and will most likely be supported in CSS in the future. [CSSWG Nesting draft](https://drafts.csswg.org/css-nesting/)
+Another reason why CSS tends to look messy to the eye is that the hierarchy of selectors is not apparent. Yes, they are called Cascading Style Sheets for a reason! That is, that "cascading" is partly referring to the actual hierarchy system of CSS. However, nested code is easier to understand and is thus cleaner. Or at least, that is what I think. Nesting is available with Sass, and will most likely be supported in CSS in the future. [CSSWG Nesting draft](https://drafts.csswg.org/css-nesting/)
 
 ### 3. Conditionals, loops and functions
 Sass allows you to perform complex operations with the support of conditionals, loops and functions. In comparison, CSS has some built in functions, for example ```calc()``` (used for calculations on property values) and ```attr()``` (gets the value of an attribute). Not nearly as powerful.
