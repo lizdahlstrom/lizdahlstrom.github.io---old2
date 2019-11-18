@@ -3,19 +3,10 @@
 
   padding-bottom: 3rem;
   margin-bottom: 2rem;
-  
+  border-bottom: 1px outset $text-color;
 
   a {
     color: $text-color;
-    &hover {}
   }
 
-  &:before, &:after {
-    content: "";
-  }
-
-  border-bottom: 1px outset $text-color;
-  
 }
-
-
