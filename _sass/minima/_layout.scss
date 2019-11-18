@@ -221,6 +221,12 @@
 .post-link {
   display: block;
   @include relative-font-size(2);
+  color: darken($brand-color, 10%) !important;
+
+  &:hover {
+    color: $text-color !important;
+  }
+
 }
 
 
