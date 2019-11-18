@@ -6,8 +6,8 @@ comments: true
 categories: web configurations
 ---
 
-### Jekyll
-This blog is built using the static site generator Jekyll and the base theme Minima. Read more on my thoughts about static site generators [here]({% post_url 2019-11-12-thoughts-on-static-site-generators %}).
+This blog is built using the static site generator Jekyll and the base theme Minima.
+<!--more--> Read more on my thoughts about static site generators [here]({% post_url 2019-11-12-thoughts-on-static-site-generators %}).
 
 ### robots.txt
 robots.txt is a file that is placed in the root folder of any website to give instruction to any robot (i.e web crawler) that visits.
@@ -49,3 +49,14 @@ Any page that is linked on social media will be presented with title, type, url 
 
 ### Disqus
 In order to enable comments on the blog I have used the commenting platform [Disqus](https://disqus.com/).
+
+To implement it, I followed the guide for getting it set up for Jekyll on the Disqus website. However, due to the fact that I used the default Jekyll theme, Minima, there was an even easier way. Minima has out of the box a template for Disqus. All that was needed was two lines in the _config.yml file to enable it.
+
+```
+disqus:
+  shortname
+```
+
+"shortname" is the shortname for the website that I added to my Disqus user.
+
+As you can see below, it worked out perfectly.

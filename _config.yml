@@ -7,6 +7,9 @@ url: "http://lizdahlstrom.github.io" # the base hostname & protocol for your sit
 twitter_username: lizdahlstrom
 github_username:  lizdahlstrom
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 image: /assets/img/ogimage.jpg
 
 # Build settings

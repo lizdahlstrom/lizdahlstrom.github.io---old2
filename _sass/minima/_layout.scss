@@ -194,6 +194,12 @@
 
   > li {
     margin-bottom: $spacing-unit;
+    padding: 10px 5px;
+
+    > h3 {
+      font-weight: bold;
+    }
+    
   }
 }
 

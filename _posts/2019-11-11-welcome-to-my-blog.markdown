@@ -11,4 +11,6 @@ Hi, I'm Liz!
 
 This is my personal blog based around web and software development.
 
+<!--more-->
+
 Read more about me [here](/about).

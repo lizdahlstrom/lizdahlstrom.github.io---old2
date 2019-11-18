@@ -8,6 +8,8 @@ categories: ssg
 
 Static site generators (SSG's) are tools widely used to quickly and easily generate deployable websites. 
 
+<!--more-->
+
 In comparison to building your own project from scratch, SSG's offer a set structure that can be easily maintainable and customizible as you wish. I think SSG's are great if you want to get started quickly without having to bother with setting up a base structure.
 
 Something that can be otherwise tedious when creating a static website is duplicating global content (like navigation or footer) or similar content (like blog posts). SSG's generate this type of content with the help of templates and markdown. 

@@ -8,6 +8,8 @@ categories: web frontend css
 
 CSS preprocessors (CPP's) have been a part of web development for years. They have a bunch of features developed to make writing stylesheets easier.
 
+<!--more-->
+
 Making this website has not been my first experience with CPP's, although it has been a few years since my last little dabble. Back in those days CSS could be a headache to deal with (in my opinion), and familiarizing myself with Sass turned out to be a real pain reliever. 
 
 So, what is so great about taking the extra steps of implementing a CPP? In the following article I will compare native CSS with some of the main features of Sass.
@@ -41,7 +43,7 @@ An example:
 Again another feature which helps reduce the amount of repeated code. Mixins allow you to define reusable styles, with or without arguments. Native CSS does have something similar -  ```@apply```. However, using ```@apply``` does not allow you to use arguments.
 
 ## On this site
-When building this site the main features I made use of are variables, nesting, and 
+When building this site the main Sass features I made use of are variables and nesting. As the base theme Minima includes Sass files out of the box, all I had to do was add/edit the existing files. 
 
 ## Conclusion
 There are many features of CPP's that are not only now available in CSS out of the box, but are on the list of things to come. Some of the features that native CSS offers are variables, imports (so you can split files into partials) and simple calculations.
