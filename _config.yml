@@ -13,3 +13,6 @@ image: "assets/img/ogimage.jpg"
 theme: minima
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: lizdahlstrom
