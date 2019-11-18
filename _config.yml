@@ -3,11 +3,11 @@ email: liz.dahlstrom@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a personal blog about web and software development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lizdahlstrom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://lizdahlstrom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lizdahlstrom
 github_username:  lizdahlstrom
 
-image: "assets/img/ogimage.jpg"
+image: /assets/img/ogimage.jpg
 
 # Build settings
 theme: minima
