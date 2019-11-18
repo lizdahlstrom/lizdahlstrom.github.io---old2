@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  // border-top: 5px solid $grey-color-dark;
+  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: $dark-gray;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -20,7 +21,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: whitesmoke;
   }
 }
 
@@ -29,7 +30,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -37,8 +38,10 @@
   }
 
   .page-link {
-    color: $text-color;
+    @include relative-font-size(1.2);
+    color: white;
     line-height: $base-line-height;
+
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -73,17 +76,17 @@
       padding-top: 10px;
       text-align: center;
 
-      > svg {
+      >svg {
         fill: $grey-color-dark;
       }
     }
 
-    input ~ .trigger {
+    input~.trigger {
       clear: both;
       display: none;
     }
 
-    input:checked ~ .trigger {
+    input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -95,6 +98,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
+
       margin-left: 20px;
     }
   }
@@ -106,12 +110,13 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: $dark-gray;
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.5);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -122,10 +127,14 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(1.0);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
+
+  li {
+    @include relative-font-size(1.1);
+  }
 }
 
 .footer-col {
@@ -136,29 +145,30 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
+
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -166,7 +176,7 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -192,14 +202,14 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
+  >li {
     margin-bottom: $spacing-unit;
     padding: 10px 5px;
 
-    > h3 {
-      font-weight: bold;
+    >h3 {
+      font-weight: 900;
     }
-    
+
   }
 }
 
@@ -210,7 +220,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(2);
 }
 
 
@@ -218,12 +228,19 @@
 /**
  * Posts
  */
+.post {
+  padding: 13px;
+  padding-top: 12px;
+  background-color: $dark-gray2;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
 
 .post-title {
   @include relative-font-size(2.625);
+  color: $brand-color;
   letter-spacing: -1px;
   line-height: 1;
 

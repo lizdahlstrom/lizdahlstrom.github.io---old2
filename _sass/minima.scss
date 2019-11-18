@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-$sans-serif: 'Montserrat', sans-serif;
+$sans-serif: 'Oswald', sans-serif;
 $serif: 'Merriweather', serif;
 
 $base-font-family: $sans-serif !default;
@@ -14,13 +14,17 @@ $article-headers-font-weight: 600 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       rgb(185, 185, 185) !default;
+$background-color: #1a1919 !default;
+$brand-color:      #BB86FC !default;
+$secondary-color: #03DAC5;
+$dark-gray: #222222 !default;
+$dark-gray2: #2e2e2e !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+// $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
